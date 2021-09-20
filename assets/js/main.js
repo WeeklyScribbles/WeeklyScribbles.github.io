@@ -1,9 +1,3 @@
-/**
-* Template Name: MyPortfolio - v4.5.0
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -41,11 +35,11 @@
   }
 
   /**
-   * burgerMenu
+   * navigationMenu
    */
-  const burgerMenu = select('.burger')
-  on('click', '.burger', function(e) {
-    burgerMenu.classList.toggle('active');
+  const navigationMenu = select('.navigation')
+  on('click', '.navigation', function(e) {
+    navigationMenu.classList.toggle('active');
   })
 
   /**
@@ -79,7 +73,7 @@
   });
 
   /**
-   * Testimonials slider
+   * Slider
    */
   new Swiper('.testimonials-slider', {
     speed: 600,
